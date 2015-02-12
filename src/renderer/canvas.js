@@ -53,7 +53,7 @@ var CanvasRenderer = function(el, options) {
 		var isNegative = percent <= 0 ? true : false;
 
 		ctx.beginPath();
-		ctx.arc(0, 0, radius, 0, Math.PI * 2 * percent, isNegative);
+		ctx.arc(radius * 2, (radius * 2) * 3 / 4, radius, 0, (Math.PI * 2) * percent * 3 / 4, isNegative);
 
 		ctx.strokeStyle = color;
 		ctx.lineWidth = lineWidth;
