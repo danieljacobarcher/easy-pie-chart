@@ -1,4 +1,4 @@
-var EasyPieChart = function(el, opts) {
+var OpenPieChart = function(el, opts) {
 	var defaultOptions = {
 		barColor: '#ef1e25',
 		trackColor: '#f9f9f9',
